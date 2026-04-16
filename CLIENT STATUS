@@ -1,0 +1,41 @@
+You have access to my Microsoft 365 artifacts (Teams meeting transcripts, Teams messages, and email). 
+
+TASK
+Create an executive-ready “Current Priorities & Projects” guide for the following companies:
+ <CLIENT NAMES>
+
+SCOPE (STRICT)
+- Include ONLY activity from the past 4 weeks (last 28 days) from today.
+- Use ONLY: Teams meeting transcripts, Teams chats/messages, and email threads where the external participant domain matches one of:
+  <CLIENT EMAIL DOMAINS>
+- If a company has no qualifying activity, still include it with “No recent activity found (last 4 weeks).”
+
+OUTPUT FORMAT
+Return ONE Markdown table with exactly one row per company (16 rows). Use these columns (in this order):
+1) Company
+2) Current priorities (top 3, concise)
+3) Active projects / workstreams (top 3–5; include what’s being done, not generic themes)
+4) Open issues / risks / blockers (explicitly state what is blocked + why)
+5) Asks / requests to Microsoft (what the client is asking Microsoft for)
+6) Microsoft asks of the client (what Microsoft is waiting on from the client)
+7) Key stakeholders (Client) (names + role/org if stated)
+8) Key stakeholders (Microsoft/Partners) (names + role/team if stated)
+9) Next steps & action items (max 5; format: Owner | Action | Due date (if stated) | Status)
+
+CONTENT RULES (MAKE IT CONSISTENT)
+- Dedupe and normalize: merge repeated items across meetings/messages/emails into a single, clean statement per company.
+- Be specific: prefer concrete deliverables, decisions, deadlines, environments, workshops, migrations, pilots, funding asks, escalations, and support requests.
+- Separate “Asks to Microsoft” vs “Microsoft asks” clearly (do not mix).
+- Use emphasis sparingly for signal:
+  - Use **bold** for urgent blockers, escalations, and time-sensitive asks.
+  - Use *italics* for strategic initiatives or multi-quarter programs.
+- Write in clear, client/account language suitable for internal Microsoft consumption.
+- Do NOT include:
+  - Source references, links, message IDs, meeting IDs, timestamps, verbatim quotes, or “according to an email/chat” phrasing.
+  - Full invitee lists—only include stakeholders explicitly relevant to the work.
+
+QUALITY BAR / SELF-CHECK BEFORE RETURNING
+- Every company has exactly one row.
+- Each row contains at least 1 item in priorities/projects OR a “No recent activity found” statement.
+- Action items include owners (Client/Microsoft/Partner) when stated; if owner is not stated, write “Owner not specified.”
+``
