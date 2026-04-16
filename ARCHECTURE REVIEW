@@ -1,0 +1,10 @@
+Please conduct a detailed review of the attached <FILE TYPE> file, <FILE NAME>, which outlines the proposed Global Azure AI architecture for <CLIENT NAME>. Based on this review, produce a client-ready technical assessment suitable for presentation to technical stakeholders—particularly the architect who designed the solution.
+The assessment should include:
+
+A comprehensive inventory of technologies and Azure services used, organized by architectural layer.
+A strengths and risks analysis of the proposed design, with attention to architectural decisions and their implications.
+Identification of design gaps and tradeoffs, including considerations related to security, scalability, resiliency, cost efficiency, and operational complexity.
+Targeted recommendations for improvement, aligned with the five pillars of the Azure Well-Architected Framework (cost optimization, operational excellence, performance efficiency, reliability, and security).
+A comparison to relevant Azure reference architectures, clearly noting areas of alignment, deviations, and the rationale behind any differences.
+
+The tone should remain neutral and professional, with a structured format that facilitates technical review and discussion.
