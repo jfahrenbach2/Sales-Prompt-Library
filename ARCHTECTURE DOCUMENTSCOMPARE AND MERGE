@@ -1,0 +1,20 @@
+Task: Document Comparison and Synthesis
+You are provided with two Word documents:
+
+<DOCUMENT ONE NAME>
+<DOCUMENT TWO NAME>
+
+Both documents evaluate the same proposed Global Azure AI architecture.
+Instructions:
+
+Compare and analyze both documents in full.
+Produce a single, unified document that consolidates the findings, observations, and recommendations from both sources.
+Eliminate duplicate or overlapping findings—each unique point should appear only once.
+Where the documents present conflicting conclusions, assessments, or recommendations, determine and present the most technically accurate and defensible outcome.
+Resolve conflicts explicitly through informed judgment rather than listing alternatives.
+
+Output Requirements:
+
+The final document must read as a cohesive, standalone architectural assessment—not a comparison or summary of two documents.
+The tone and structure should be appropriate for the lead architect of the system, with clear, authoritative conclusions.
+Do not reference the original documents or describe the comparison process in the final output.
